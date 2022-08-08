@@ -1,0 +1,113 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+  background-color: hsl(300, 24%, 96%);
+}
+
+p {
+  font-size: 15px;
+  line-height: 1.5;
+}
+
+.main-container {
+  width: 1440px;
+  margin: 90px auto;
+  padding: 80px 205px;
+  background-color: hsl(0, 0%, 100%);
+  box-shadow: 0 20px 30px 0 rgba(0, 0, 0, 0.07);
+}
+
+.header-AllRated {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 80px;
+}
+
+.main-rated {
+  display: flex;
+  background-color: hsl(300, 24%, 96%);
+  padding: 15px 60px 15px 25px;
+  margin-bottom: 12px;
+  border-radius: 12px;
+  gap: 15px;
+}
+
+.header-1 h1 {
+  margin-bottom: 20px;
+  font-size: 45px;
+  color: hsl(300, 43%, 22%);
+}
+
+.header-1 p {
+  color: hsl(300, 43%, 22%);
+}
+
+.Rated-1 {
+  flex: 0 1 content;
+}
+
+.Rated-2 {
+  flex: 0 1 auto;
+}
+
+.Rated-3 {
+}
+
+.smith-img-text {
+  display: flex;
+  align-items: center;
+  gap: 25px;
+  margin-bottom: 30px;
+}
+
+.smith-img {
+  border-radius: 50px;
+}
+
+.testimonial-smith {
+  background-color: hsl(300, 43%, 22%);
+  width: fit-content;
+  padding: 30px;
+  border-radius: 8px;
+}
+
+.testimonial-smith p {
+  color: hsl(300, 24%, 96%);
+}
+
+.smith-text p {
+  color: hsl(333, 80%, 67%);
+}
+
+.smith-p {
+  font-size: 14px;
+}
+
+.smith-text h4 {
+  color: hsl(300, 24%, 96%);
+}
+
+section {
+  display: flex;
+  justify-content: space-between;
+}
+
+.smith-1 {
+  align-self: flex-start;
+}
+
+.smith-2 {
+  margin-top: 15px;
+  align-self: flex-start;
+}
+
+.smith-3 {
+  align-self: flex-start;
+  margin-top: 30px;
+}
