@@ -20,6 +20,9 @@ p {
   padding: 80px 205px;
   background-color: hsl(0, 0%, 100%);
   box-shadow: 0 20px 30px 0 rgba(0, 0, 0, 0.07);
+  background-image: url("images/bg-pattern-bottom-desktop.svg");
+  background-repeat: no-repeat;
+  background-image: url("images/bg-pattern-top-desktop.svg");
 }
 
 .header-AllRated {
@@ -47,39 +50,50 @@ p {
 
 .ul-1 h4 {
   display: inline-block;
+  margin-left: 15px;
+  padding-right: 20px;
 }
 
 .ul-2 h4 {
   display: inline-block;
+  margin-left: 15px;
+  padding-right: 20px;
 }
 
 .ul-3 h4 {
   display: inline-block;
+  margin-left: 15px;
+  padding-right: 20px;
 }
 
 li {
   list-style: none;
 }
 .ul-1 {
-  margin-right: 130px;
   align-self: flex-start;
   background-color: hsl(300, 24%, 96%);
   padding: 20px;
+  transform: translate(-60px, 0);
+  border-radius: 8px;
 }
 
 .ul-2 {
-  margin-left: 40px;
+  /* margin-left: 40px; */
   background-color: hsl(300, 24%, 96%);
   align-self: flex-start;
   padding: 20px;
+  transform: translate(-30px, 0);
+  border-radius: 8px;
 }
 
 .ul-3 {
   background-color: hsl(300, 24%, 96%);
-  margin-left: 60px;
+  /* margin-left: 60px; */
   align-self: flex-start;
   padding: 20px;
+  border-radius: 8px;
 }
+
 .smith-img-text {
   display: flex;
   align-items: center;
